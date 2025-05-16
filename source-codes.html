@@ -89,12 +89,12 @@
 </head>
 <body>
 
-  <h1>📂 My Project Source Codes</h1>
+  <h1>📁 Source Code Links</h1>
 
   <!-- Project List -->
-  <div class="project" onclick="openModal('https://github.com/user/project1')">🔧 Portfolio Website</div>
-  <div class="project" onclick="openModal('https://github.com/user/calculator')">🧮 Calculator App</div>
-  <div class="project" onclick="openModal('https://github.com/user/weather-app')">🌦️ Weather App</div>
+  <div class="project" onclick="openModal('https://drive.google.com/file/d/13kjGB5MsnIsi8qdVTLrWWXrD98sba4sL/view?usp=sharing')">🔗 Source Code 1</div>
+  <div class="project" onclick="openModal('https://drive.google.com/file/d/13kjGB5MsnIsi8qdVTLrWWXrD98sba4sL/view?usp=sharing')">🔗 Source Code 2</div>
+  <div class="project" onclick="openModal('https://drive.google.com/file/d/13kjGB5MsnIsi8qdVTLrWWXrD98sba4sL/view?usp=sharing')">🔗 Source Code 3</div>
 
   <!-- Modal -->
   <div id="linkModal" class="modal">
@@ -122,7 +122,7 @@
       copyText.select();
       copyText.setSelectionRange(0, 99999);
       document.execCommand("copy");
-      alert("Link copied: " + copyText.value);
+      alert("✅ Link copied:\n" + copyText.value);
     }
 
     // Close modal if clicked outside
